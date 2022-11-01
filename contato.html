@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1>Clínica Kaisen</h1>
+            <!-- Aqui vai o seu menu -->
+            <ul class="links">
+                <li><a href="index1.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="imagem5.png" >
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <p>Telefones para contato:</p>
+                <ol>
+                    <li>(34)3214-5678</li>
+                    <li>(34)99876-54321</li>
+                </ol>
+                <div class="enderco">
+                    <p>Endereço:<br>
+                        Av. José Fonceca e Silva, 4265, Jardim Europa, Uberlândia - MG
+                    </p>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8714949256964!2d-48.33708898410714!3d-18.937081337666747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a443da95f7698b%3A0xbfa1b621022fba00!2s32%C2%B0%20BPM%20-%20NOVA%20SEDE!5e0!3m2!1spt-BR!2sbr!4v1667245726993!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+                <form name="signup" class="formulario" method="post">
+                    Nome:<input type="text"name="name"  /><br>
+                    Email:<input type="email" name="email" /><br>
+                    Assunto:<input type="text" name="assunto"><br>
+                    <label>Mensagem:</label>
+                    <textarea name="message" rows="10"></textarea><br>
+                    <button type="submit">Enviar</button><br>
+                    <button type="reset">Limpar</button><br>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <p>Endereço:<br>
+                    Av. José Fonceca e Silva, 4265, Jardim Europa, Uberlândia - MG
+                </p>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8714949256964!2d-48.33708898410714!3d-18.937081337666747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a443da95f7698b%3A0xbfa1b621022fba00!2s32%C2%B0%20BPM%20-%20NOVA%20SEDE!5e0!3m2!1spt-BR!2sbr!4v1667245726993!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+        </div>
+    </div>
+    <style>
+        .header img{
+            width: 100%;
+            display:flex;
+        }
+        .links {
+            font-size: 1.2em;
+            padding-top: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+        a:hover {
+            color: #454545;
+        }
+        li {
+            list-style-type: none;
+            padding-top: 10px;
+        }
+        .content{
+            flex-direction: column;
+            align-content: center;
+            font-size: 1.3em;
+        }
+        .formulario{
+            display: inline-grid;
+            width: 600px;
+        }
+        .content p {
+            margin-bottom: 0;
+        }
+        .content ol{
+            margin-top: 0;
+        }
+        .footer{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+        }
+        iframe {
+            height: 350px;
+            justify-items: center;
+            padding-left: 15px;
+        }
+    </style>
+</body>
+</html>
